@@ -3,21 +3,30 @@
 **::after{
     box-sizing: border-box;
 }
+@media (min-width: 600px){
+    body{
+        text-align: center;
+    }
+}
 body{
     background-color: #A9A9A9;
 }
 #header{
-    display: flex;
-    gap: 90rem;
+    display: inline-flex;
+    gap: 80rem;
     padding: 50px;
+    flex-direction: row;
 }
+
 #header-image{
     height: 240px;
 }
 #nav-bar{
     display: flex;
     gap: 50px;
+    flex-shrink: 0;
 }
+
 .nav-link{
     text-decoration: none;
     font-size: 24px;
