@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    position: fixed;
+    justify-content: end;
+    z-index: 5;
+    top: 0 !important;
+    width: 91rem !important;
+    height: 5rem;
+}
+header>nav{
+    position: static;
+}
